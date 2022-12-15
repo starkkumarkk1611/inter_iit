@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-   baseURL: "http://localhost:5000",
+   baseURL: "https://solar-flare-server.onrender.com/",
 });
 
 //api to send file from frontend
